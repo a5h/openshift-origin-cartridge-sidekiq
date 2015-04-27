@@ -2,7 +2,7 @@
 
 source $OPENSHIFT_CARTRIDGE_SDK_BASH
 
-SIDEKIQ_VERSION="3.3.1"
+SIDEKIQ_VERSION="3.22.1"
 
 if [ -z "${OPENSHIFT_RUBY_DIR}" ]; then
   client_result ""

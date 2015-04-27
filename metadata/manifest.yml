@@ -1,11 +1,11 @@
 ---
 Name: sidekiq
 Cartridge-Short-Name: SIDEKIQ
-Display-Name: Sidekiq 3.3.1
+Display-Name: Sidekiq 3.2.1
 Description: Simple, efficient background processing for Ruby.
-Version: '3.3.1'
+Version: '3.2.1'
 Versions:
-- '3.3.1'
+- '3.2.1'
 Cartridge-Version: 0.0.4
 Cartridge-Vendor: pranavpr
 License: GPL
@@ -15,7 +15,7 @@ Categories:
 - embedded
 Website: https://github.com/pranavpr/openshift-origin-cartridge-sidekiq
 Provides:
-- sidekiq-3.3.1
+- sidekiq-3.2.1
 - sidekiq
 Scaling:
   Min: 1
