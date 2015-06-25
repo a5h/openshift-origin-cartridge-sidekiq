@@ -20,7 +20,7 @@ function start() {
   echo "Starting sidekiq"
   pushd ${OPENSHIFT_REPO_DIR} >/dev/null
   if use_rails; then
-    ruby_context_with_gempath "sidekiq -d -e production --config ${SIDEKIQ_CONFIG}"
+    ruby_context_with_gempath "bundle exec \"sidekiq -d -e production --config ${SIDEKIQ_CONFIG}\""
     sidekiq_monitoring start
   else
     if use_workers; then
